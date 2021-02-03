@@ -23,7 +23,7 @@ import com.steelkiwi.cropiwa.util.TensionInterpolator;
  * 03.02.2017.
  */
 @SuppressLint("ViewConstructor")
-class CropIwaImageView extends ImageView implements OnNewBoundsListener, ConfigChangeListener {
+class CropIwaImageView extends android.support.v7.widget.AppCompatImageView implements OnNewBoundsListener, ConfigChangeListener {
 
     private Matrix imageMatrix;
     private MatrixUtils matrixUtils;
